@@ -1,0 +1,192 @@
+body {
+    background-image: url(appointment_wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading1 {
+    /* background-color: aqua; */
+    color: rgb(48, 67, 137);
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    
+}
+
+.heading1 h1{
+    margin-top: 50px;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.437);
+
+}
+
+
+.logo1 {
+    text-align: center;
+    margin: 50px auto -20px auto;
+}
+
+.logo1 img {
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.437);
+    border-radius: 50%;
+    border: 4px solid rgb(48, 67, 137);
+    text-align: center;
+    width: 120px;
+}
+
+.sch_all{
+    background: #fff;
+    margin: 100 auto;
+    width: 1250px;
+    padding: 10px 0 25px 0;
+    border: 5px solid rgb(48, 67, 137);
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.437);
+
+}
+
+.schedule_head {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(48, 67, 137);
+    font-weight: bold;
+}
+
+.sch {
+    margin-top: 30px;
+    /* background-color: #c6a7ef;s   */
+}
+
+.sch table {
+    font-size: 20px;
+    color: rgb(48, 67, 137);
+    border-spacing: 5px;
+    width: 1200px;
+    height: 360px;
+    margin: -15px auto 0 auto;
+    background-color: #ffffff;
+}
+
+.sch th,
+tr,
+td {
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(48, 67, 137);
+    text-align: center;
+}
+
+.sch th {
+    background-color: rgb(230, 235, 255);
+
+}
+
+.sch .noon {
+    background-color: rgb(230, 235, 255);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sch .clock {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(230, 235, 255);
+
+}
+
+.sch .busy {
+    background-color: #fac6c6;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.formhead {
+    text-align: center;
+    /* margin-top: 60px; */
+    /* background-color: brown; */
+    color: rgb(48, 67, 137);
+    text-align: center;
+    font-size: 35px;
+}
+
+.formdiv{
+    padding: 40px 0 0 0;
+    width: 800px;
+    background-color: #fff;
+    border: 5px solid rgb(48, 67, 137);
+    margin: 70px auto 100px auto;
+    font-weight: bold;
+    color: rgb(48, 67, 137);
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.437);
+
+}
+
+.formdiv label, input{
+    margin: 5px;
+}
+
+input[type="reset"]{
+    color: rgb(48, 67, 137);
+    background-color: rgb(230, 235, 255);
+    border: 3px solid rgb(48, 67, 137);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 7px;
+    letter-spacing: 1px;
+}
+
+input[type="reset"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 67, 137);
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]{
+    color: rgb(48, 67, 137);
+    background-color: rgb(230, 235, 255);
+    border: 3px solid rgb(48, 67, 137);
+    border-radius: 14px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 22px 0 60px 0;
+    letter-spacing: 2px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(48, 67, 137);
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],    
+input[type="url"],
+input[type="tel"],
+input[type="week"],
+input[type="date"]
+{
+    background-color: rgb(230, 235, 255);
+    border-radius: 5px;
+    max-width: 300px;
+    height: 25px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
+
+
+

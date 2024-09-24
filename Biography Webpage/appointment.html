@@ -1,0 +1,195 @@
+<html>
+
+<head>
+    <title>Booking Appointment</title>
+
+    <link rel="stylesheet" href="appointment.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="letter-r.png">
+</head>
+
+<body>
+
+    <div class="logo1">
+        <img src="appointmentlogosmaller.png">
+    </div>
+    <div class="heading1">
+        <h1>Book an Appointment with Rufat Hajizada</h1>
+    </div>
+
+    <div class="sch_all">
+        <div id="schedule" class="schedule_head">Schedule</div>
+        <div class="sch">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td class="clock">8:30 - 9:45</td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="clock">10:00 - 11:15</td>
+                    <td class="busy">Busy</td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td class="clock">11:30 - 12:45</td>
+                    <td></td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr class="noon">
+                    <td colspan="8">NOON</td>
+                </tr>
+                <tr>
+                    <td class="clock">13:00 - 14:15</td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                </tr>
+                <tr>
+                    <td class="clock">14:30 - 15:45</td>
+                    <td></td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                    <td class="busy">Busy</td>
+                </tr>
+                <tr>
+                    <td class="clock">16:00 - 17:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="clock">17:30 - 18:45</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="formdiv">
+        <h1 class="formhead">Fill in all the blanks to book an appointment.</h1>
+        <form class="formbody" action="mailto:rhajizada16231@ada.edu.az" enctype="text/plain" method="post">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" placeholder="ex: Mahammad" name="firstname" required>
+            </br>
+
+            <label for="surname">Last Name:</label>
+            <input type="text" id="surname" placeholder="ex: Aliyev" name="lasstname" required>
+            </br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="ex: mypassword" minlength="8" name="password" required>
+            </br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="ex: 20" min="14" max="99" name="age" required>
+            </br>
+
+            <label for="tel">Contact Number (without any space or "-"):</label>
+            <input type="tel" id="email" placeholder="ex: 9941234567" pattern="[0-9]{10}" name="number" required>
+            </br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="ex: aliyev04@gmail.com" name="email" required>
+            </br>
+
+            <label for="image" class="fileupload">Photo (Optional):</label>
+            <input type="file" id="image" accept="image/*" name="image">
+            </br>
+
+            <label for="linkedin">Linkedin URL (Optional):</label>
+            <input type="url" id="linkedin" placeholder="ex: www.linkedin.com...." name="linkedin url:">
+            </br></br>
+            
+
+
+
+            <label for="">Please Choose the Purpose of the Appointment below:</label>
+            </br>
+
+            <input type="radio" name="purpose" id="research" required>
+            <label for="research">Research Paper</label>
+            </br>
+
+            <input type="radio" name="purpose" id="project" required>
+            <label for="project">Software Engineering Project</label>
+            </br>
+
+            <input type="radio" name="purpose" id="cons" required>
+            <label for="cons">Presentation Consulting</label>
+            </br>
+            </br>
+
+            <label for="finalweek">Indicate Your Final Week:</label>
+            <input type="week" name="finalweek" id="finalweek" required>
+            </br>
+            </br>
+
+            <label for="app_date">Appointment Date:</label>
+            <input type="date" name="app_date" id="app_date" required>
+            </br>
+
+
+            </br>
+            <input type="checkbox" name="policy" id="policy" required>
+            <label for="policy">I have read the appointment policy and I accept it.</label>
+        </br>
+            <input type="checkbox" name="sms_mess" id="sms_mess" >
+            <label for="sms">I want to get a sms message 1 day before the appointment.</label>
+        </br>
+            <input type="checkbox" name="email_not" id="email_not" >
+            <label for="email_not">I want to get an email 1 day before the appointment.</label>
+            </br>
+
+
+            </br>
+            <input type="reset" value="RESET" name="reset" id="">
+            </br>
+            <input type="submit" value="SUBMIT" name="submit" id="" width="">
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

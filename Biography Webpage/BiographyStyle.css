@@ -31,7 +31,7 @@ header ul {
 
 header li {
     display: inline-block;
-    margin: 10px 50px 0px 50px;
+    margin: 10px 25px 0px 25px;
 }
 
 header a {
@@ -40,7 +40,7 @@ header a {
     text-decoration: none;
 }
 
-header li :hover{
+header li :hover {
     /* font-weight: bold; */
     color: #74040d;
 }
@@ -77,6 +77,8 @@ header li :hover{
     text-align: center;
     border-radius: 50%;
     border: 2px solid rgb(48, 67, 137);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.437);
+
 
 }
 
@@ -104,7 +106,7 @@ header li :hover{
 }
 
 .heads {
-    scroll-margin-top: 220px; 
+    scroll-margin-top: 220px;
 }
 
 .edu {
@@ -121,7 +123,7 @@ header li :hover{
     text-decoration: none;
 }
 
-.awards{
+.awards {
     font-size: 25px;
     color: rgb(104, 104, 104);
     text-align: left;
@@ -135,7 +137,7 @@ header li :hover{
     text-decoration: none;
 }
 
-.inter{
+.inter {
     font-size: 25px;
     color: rgb(104, 104, 104);
     text-align: left;
@@ -143,11 +145,11 @@ header li :hover{
     line-height: 60px;
 }
 
-.cont{
+.cont {
     text-align: center;
 }
 
-.cont a img{
+.cont a img {
     width: 100px;
     margin: 30px 30px;
 }
@@ -158,9 +160,9 @@ header li :hover{
     /* background-color: #c6a7ef;s   */
 }
 
-.sch table{
+.sch table {
     font-size: 20px;
-    color:  rgb(48, 67, 137);
+    color: rgb(48, 67, 137);
     border-spacing: 5px;
     width: 1200px;
     height: 360px;
@@ -168,40 +170,30 @@ header li :hover{
     background-color: #ffffff;
 }
 
-.sch  th, tr, td{
+.sch th,
+tr,
+td {
     width: 200px;
     height: 30px;
     border: 2px solid rgb(48, 67, 137);
     text-align: center;
 }
 
-.sch th{
+.sch th {
     background-color: rgb(230, 235, 255);
 
 }
 
-.sch .noon{
+.sch .noon {
     background-color: rgb(230, 235, 255);
     font-size: 20px;
     font-weight: bold;
-    
+
 }
 
-.sch .clock{
+.sch .clock {
     font-size: 20px;
     font-weight: bold;
     background-color: rgb(230, 235, 255);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
