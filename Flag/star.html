@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .star_container {
+            width: 8.33vw;
+            /* Set the size of the outer star (2h) */
+            height: 8.33vw;
+            background-color: aqua;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .innercircle {
+            background-color: rgb(255, 255, 255);
+            width: 4.16vw;
+            height: 4.16vw;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .star {
+            width: 8.33vw;
+            height: 8.33vw;
+            background-color: red;
+
+            z-index: 1;
+            clip-path: polygon(50% 0%,
+                    40.433% 26.90%,
+                    14.64% 14.64%,
+                    26.90% 40.433%,
+                    0% 50%,
+                    26.90% 59.567%,
+                    14.64% 85.36%,
+                    40.433% 73.1%,
+                    50% 100%,
+                    59.567% 73.1%,
+                    85.36% 85.36%,
+                    73.1% 59.567%,
+                    100% 50%,
+                    73.1% 40.433%,
+                    85.36% 14.64%,
+                    59.567% 26.90%);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="star_container">
+        <div class="star"></div>
+        <div class="innercircle"></div>
+    </div>
+
+</body>
+
+</html>

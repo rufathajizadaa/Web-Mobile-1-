@@ -8,7 +8,24 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    /* width: 90%; */
+    
 }
+
+/* p{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.line{
+    width: 1000px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+    /* border-top: 3px dotted rgb(126, 144, 209); */
+    /* border-top: 3px dashed rgb(126, 144, 209); */
+    border-top: 1px solid rgb(126, 144, 209);
+
+}
+
 
 header {
     width: 100%;
@@ -42,7 +59,9 @@ header a {
 
 header li :hover {
     /* font-weight: bold; */
-    color: #74040d;
+    /* color: #74040d; */
+    color: rgb(128, 128, 128);
+
 }
 
 .bio-container {
@@ -78,7 +97,11 @@ header li :hover {
     border-radius: 50%;
     border: 2px solid rgb(48, 67, 137);
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.437);
+}
 
+.ppbog img:hover {
+    margin-top: -3px;
+    width: 356px;
 
 }
 
@@ -97,17 +120,17 @@ header li :hover {
 }
 
 .heads {
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin-top: 150px;
     text-align: left;
     margin-left: 150px;
     font-size: 50px;
     color: rgb(48, 67, 137);
     font-weight: bold;
-}
-
-.heads {
     scroll-margin-top: 220px;
 }
+
+
 
 .edu {
     font-size: 25px;

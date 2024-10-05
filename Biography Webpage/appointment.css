@@ -9,6 +9,7 @@ body {
 }
 
 
+
 .heading1 {
     /* background-color: aqua; */
     color: rgb(48, 67, 137);
@@ -16,15 +17,14 @@ body {
     text-align: center;
     margin: 0 auto;
     font-size: 25px;
-    
+
 }
 
-.heading1 h1{
+.heading1 h1 {
     margin-top: 50px;
     text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.437);
 
 }
-
 
 .logo1 {
     text-align: center;
@@ -39,7 +39,7 @@ body {
     width: 120px;
 }
 
-.sch_all{
+.sch_all {
     background: #fff;
     margin: 100 auto;
     width: 1250px;
@@ -115,25 +115,38 @@ td {
     font-size: 35px;
 }
 
-.formdiv{
+.formdiv {
     padding: 40px 0 0 0;
     width: 800px;
     background-color: #fff;
     border: 5px solid rgb(48, 67, 137);
     margin: 70px auto 100px auto;
-    font-weight: bold;
     color: rgb(48, 67, 137);
     text-align: center;
-    font-size: 20px;
     box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.437);
 
 }
 
-.formdiv label, input{
+.formdiv label {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.formdiv label,
+input {
     margin: 5px;
 }
 
-input[type="reset"]{
+.onlyinputs{
+    /* background-color: aqua; */
+    /* margin-left: 30px; */
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+input[type="reset"] {
     color: rgb(48, 67, 137);
     background-color: rgb(230, 235, 255);
     border: 3px solid rgb(48, 67, 137);
@@ -141,6 +154,7 @@ input[type="reset"]{
     font-size: 20px;
     padding: 7px;
     letter-spacing: 1px;
+    margin: 30px auto 0 auto;
 }
 
 input[type="reset"]:hover {
@@ -149,7 +163,7 @@ input[type="reset"]:hover {
     transition: background-color 0.3s;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     color: rgb(48, 67, 137);
     background-color: rgb(230, 235, 255);
     border: 3px solid rgb(48, 67, 137);
@@ -167,26 +181,37 @@ input[type="submit"]:hover {
     transition: background-color 0.3s;
 }
 
+select {
+    display: inline-block;
+    background-color: rgb(230, 235, 255);
+    border-radius: 4px;
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0px 18px;
+    margin-top: 5px;
+    border: 2px solid rgb(48, 67, 137);
+    color: rgb(48, 67, 137);
+    cursor: pointer;
+}
+
 
 input[type="text"],
 input[type="password"],
 input[type="number"],
-input[type="email"],    
+input[type="email"],
 input[type="url"],
 input[type="tel"],
 input[type="week"],
-input[type="date"]
-{
+input[type="date"] {
+    margin-left: 0px;
+    width: 100%;
     background-color: rgb(230, 235, 255);
-    border-radius: 5px;
-    max-width: 300px;
-    height: 25px;
-    padding: 10px;
-    font-size: 14px;
+    border-radius: 4px;
+    /* max-width: 300px; */
+    height: 35px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: rgb(48, 67, 137);
+
 }
-
-
-
-
-
-

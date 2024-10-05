@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flag_all {
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    height: 50vw;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.blue,
+.red,
+.green {
+    height:  calc(100vw/3);
+}
+
+.blue {
+    background-color: #00B5E2;
+}
+
+.red {
+    display: flex;
+    background-color: #EF3340;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: #509E2F;
+}
+
+.crescentstar {
+    display: flex;
+    /* background-color: #533739; */
+    width: 20vw;
+    height: 15vw;
+    position: relative;
+    justify-content: space-between;
+}
+
+.crescent{
+    /* background-color: #95d48a; */
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    z-index: 1;
+}
+
+.big_circle {
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%; 
+    z-index: 1;
+    position: relative;
+}
+
+.small_circle {
+    background-color: #EF3340;
+    width: 12.5vw;
+    height: 12.5vw;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: calc(1.25vw + 15vw / 9);;
+    /* left: calc(100vw/9); */
+    /* margin-left: 1.60vw; */
+}
+
+.star{
+    display: flex;
+    /* background-color: #ffffff; */
+    width:  calc(100vw/12);
+    height:  calc(100vw/12);
+
+    /* width: 8.33vw;
+    height: 8.33vw; */
+    border-radius: 50%;
+    align-self: center;
+    /* position: absolute; */
+    z-index: 5;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.star_inner_circle{
+    background-color: rgb(255, 255, 255);
+    /* width: 4.16vw;
+    height: 4.16vw; */
+    width:  calc(100vw/24);
+    height:  calc(100vw/24);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+.star_spikes{
+    /* width: 8.33vw;
+    height: 8.33vw; */
+    width:  calc(100vw/12);
+    height:  calc(100vw/12);
+    background-color: rgb(255, 255, 255);
+
+    z-index: 8;
+    clip-path: polygon(50% 0%,
+            40.433% 26.90%,
+            14.64% 14.64%,
+            26.90% 40.433%,
+            0% 50%,
+            26.90% 59.567%,
+            14.64% 85.36%,
+            40.433% 73.1%,
+            50% 100%,
+            59.567% 73.1%,
+            85.36% 85.36%,
+            73.1% 59.567%,
+            100% 50%,
+            73.1% 40.433%,
+            85.36% 14.64%,
+            59.567% 26.90%);
+}
