@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     width: 100vw;
     height: 50vw;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
 
@@ -67,7 +67,7 @@ body {
     border-radius: 50%;
     z-index: 2;
     position: absolute;
-    left: calc(1.25vw + 15vw / 9);;
+    left: calc(1.25vw + 100vw / 60);
     /* left: calc(100vw/9); */
     /* margin-left: 1.60vw; */
 }
